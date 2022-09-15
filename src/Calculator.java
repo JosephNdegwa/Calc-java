@@ -17,6 +17,20 @@ public class Calculator extends JFrame{
         n1 = r .nextInt();
         System.out.println("Enter second number: ");
         n2 = r .nextInt();
+        System.out.println("Select operation");
+        System.out.println("1 - Add");
+        System.out.println("2 - Subtract");
+        System.out.println("3 - Multiply");
+        System.out.println("4 - Divide");
+        System.out.println("Enter operation number");
+        Scanner s = new Scanner(System.in);
+         n3 = s .nextInt();
+
+
+         if (n3 == 1) {
+            
+        }
+
     }
     
 }
